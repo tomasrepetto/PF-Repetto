@@ -414,3 +414,126 @@ footer {
             }
         }
 }
+
+/* Responsive Tablet */
+
+@media only screen and (max-width: 1024px){
+    body{
+        width: 100%;
+    }
+
+        .container,
+        .container-fluid,
+        .container-lg,
+        .container-md,
+        .container-sm,
+        .container-xl,
+        .container-xxl {
+            width: 100%;
+    
+            .navbar>&,
+            .navbar>&-fluid,
+            .navbar>&-lg,
+            .navbar>&-md,
+            .navbar>&-sm,
+            .navbar>&-xl,
+            .navbar>&-xxl {
+                display: block;
+            }
+        }
+    
+        .navbar {
+            text-align: right;
+        }
+
+        #portada {
+            text-align: center;
+
+            h1 {
+                font-size: 20px;
+            }
+
+            h2 {
+                font-size: 15px;
+                letter-spacing: 9px;
+            }
+        }
+
+        footer {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+
+            .ico img {
+                margin: 20px;
+
+                @include sizes(20px, 20px);
+            }
+        }
+
+
+        #biogra {
+            display: flex;
+            flex-direction: column;
+            margin: 10px;
+
+            .foto {
+                height: 300px;
+                margin: 0px;
+            }
+
+            .vertica {
+                width: 200px;
+                align-self: center;
+                margin: 40px;
+                background-color: $primary-color;
+                border-radius: 10px;
+                height: 5px;
+
+                @include sizes(200px, 5px);
+
+            }
+
+            .biotext {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+            h3 {
+                font-size: 20px;
+                margin-top: 0px;
+                margin-bottom: 20px;
+            }
+
+            .sobre {
+                font-size: 16px;
+                max-width: 400px;
+                line-height: 25px;
+                margin-bottom: 20px;
+                font-weight: normal;
+            }
+        }
+
+        .obras {
+            width: 100%;
+            margin-top: 10px;
+
+            div {
+                display: flex;
+                flex-direction: column;
+
+                @include justify_align;
+            }
+
+            .cards {
+                margin-bottom: auto;
+            }
+
+            .prop {
+                padding: 0;
+            }
+        }
+}
