@@ -382,7 +382,7 @@ footer a {
   }
 }
 /* Responsive Tablet */
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1180px) {
   body {
     width: 100%;
   }
@@ -445,6 +445,7 @@ footer a {
   }
   #portada {
     text-align: center;
+    margin: 430px 0px;
   }
   #portada h1 {
     font-size: 20px;
@@ -466,7 +467,7 @@ footer a {
   #biogra {
     display: flex;
     flex-direction: column;
-    margin: 10px;
+    margin: 130px 0px;
   }
   #biogra .foto {
     height: 300px;

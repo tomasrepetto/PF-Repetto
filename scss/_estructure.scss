@@ -417,7 +417,7 @@ footer {
 
 /* Responsive Tablet */
 
-@media only screen and (max-width: 1024px){
+@media only screen and (max-width: 1180px){
     body{
         width: 100%;
     }
@@ -448,6 +448,7 @@ footer {
 
         #portada {
             text-align: center;
+            margin: 430px 0px;
 
             h1 {
                 font-size: 20px;
@@ -475,7 +476,7 @@ footer {
         #biogra {
             display: flex;
             flex-direction: column;
-            margin: 10px;
+            margin: 130px 0px;
 
             .foto {
                 height: 300px;
